@@ -1,0 +1,15 @@
+/*Selector {
+	Property: value;
+}*/
+
+h2 {
+	color: peru;
+}
+
+p {
+	color: blueviolet;
+}
+
+p {
+	color: greenyellow;
+}
