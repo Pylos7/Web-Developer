@@ -2,14 +2,56 @@
 	Property: value;
 }*/
 
-h2 {
-	color: red;
+* {
+	text-align: right;
+}
+
+body {
+	background-image: url(../images/backgroundimage.jpg);
+	background-size: cover;
 }
 
 p {
-	color: pink;
+	color: #27586B;
+	text-align: center;
+	border: 5px solid rgb(16, 62, 80, 0.5);
+	cursor: pointer;
 }
 
+img {
+	float: right;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
 p {
-	color: green;
+	line-height: 5px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80%^;
+	font-family: 'Poiret One', cursive;
+}
+
+li {
+	color: white;
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext:first-child {
+	border: 5px dashed gray;
+}
+
+.active {
+	color: black;
+}
+
+#div1 {
+	background: rgba(85, 68, 50, 0.3);
+}
+
+#div2 {
+	background: rgba(170, 116, 57, 0.3);
 }

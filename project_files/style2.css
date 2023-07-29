@@ -7,9 +7,9 @@ h2 {
 }
 
 p {
-	color: blueviolet;
+	font-size: 5px;
 }
 
-p {
-	color: greenyellow;
+span {
+	font-size: 5rem;
 }
