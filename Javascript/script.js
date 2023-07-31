@@ -1,9 +1,36 @@
-function checkDriverAge(age) {
-	if (Number(age) < 18) {
-		alert("Sorry, you are too yound to drive this car. Powering off");
-	} else if (Number(age) > 18) {
-		alert("Powering On. Enjoy the ride!");
-	} else if (Number(age) === 18) {
-		alert("Congratulations on your first year of driving. Enjoy the ride!");
+
+var database = [
+	{
+		username: "tommy",
+		password: "nopass"
+	}
+];
+
+var neewsfeed = [
+	{
+		username: "Bobby",
+		timeline: "So tired from all that learning"
+	},
+	{
+		username: "Sally",
+		timeline: "Javascript is so cool"
+	},
+	{
+		username: "Thomas",
+		timeline: "HomeDepot is scary"
+	}	
+];
+
+var userNamePrompt = prompt("What is you username?");
+var userPassPrompt = prompt("What is your password?");
+
+function signIn(user, pass) {
+	if (user === database[0].username &&
+		pass === database[0].password) {
+		console.log(neewsfeed)
+	} else {
+		console.log("Wrong username and/or password...")
 	}
 }
+
+signIn(userNamePrompt, userPassPrompt);
